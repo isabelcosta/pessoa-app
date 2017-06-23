@@ -1,0 +1,5 @@
+<%= form_for @user do |u| %>
+  <%= u.text_field :name, placeholder: "Name" %>
+  <%= u.email_field :email, placeholder: "Email" %>
+  <%= u.submit "Register" %>
+<% end %>
